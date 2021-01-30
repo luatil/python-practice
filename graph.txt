@@ -1,0 +1,27 @@
+A Graph G is a set of vertices V and edges E.
+
+Degree - degree(v) is equal to the number of edges connect to v
+
+Path - sequence of vertices connected by edges
+
+Cycle - path that starts and ends at the same vertex - all cycles are paths but not all paths are cycles
+
+Connectivity - two vertices are connected if a path exists between them
+  A graph is connected when all vertices are connected
+
+Connected(v1, v2) - v1 and v2 are connected if there a path between them
+
+Connected(Graph) - A graph is connected when all vertices are connected 
+
+Connected Component - a subset of vertices in v_i in V that is connected 
+
+Types of graphs:
+    Undirected Graph 
+    Edge (u, v) implies (v, u)
+
+Neighbors - vertices u and v are neighbous if an edge(u, v) connects them 
+
+Trees:
+    1. Connected and acyclic
+    2. Removing edge disconnects graph
+    3. Adding edge creates a cycle
